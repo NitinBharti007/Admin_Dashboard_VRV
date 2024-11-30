@@ -1,4 +1,4 @@
-# Role Management Dashboard
+# User Management Role-Based Access Control (RBAC) System
 
 A fully responsive **Role Management Dashboard** built with **React** and **Tailwind CSS**. This project allows users to manage roles and permissions through an intuitive interface, supporting features like adding, editing, and deleting roles. The UI is optimized for both **light** and **dark modes**, ensuring a seamless user experience across devices.
 
