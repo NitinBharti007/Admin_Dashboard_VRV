@@ -1,51 +1,52 @@
-# User Management Role-Based Access Control (RBAC) System
+# Role Management Dashboard
 
-This project is a simple **User Management System** built with **React-JS**. It allows you to manage users and roles in a table format, with the ability to add, edit, and delete users and roles. Each user has a **name**, **email**, **role**, and **status (active/inactive)**. The app stores user data in **localStorage**, so your data persists even after a page refresh.
+A fully responsive **Role Management Dashboard** built with **React** and **Tailwind CSS**. This project allows users to manage roles and permissions through an intuitive interface, supporting features like adding, editing, and deleting roles. The UI is optimized for both **light** and **dark modes**, ensuring a seamless user experience across devices.
 
+---
 
-## Features
+## 📋 **Features**
 
-- **Add Users**: You can easily add new users by filling out a form with their name, email, and role. The email is validated to ensure it's in the correct format before saving.
-- **Edit Users**: Existing users can be edited by clicking the "Edit" button in the user table. The form pre-fills with the user's details, and you can modify them.
-- **Delete Users**: You can delete users directly from the user table, which will permanently remove them from the system.
-- **Responsiveness**: The app is designed to work well on both desktop and mobile devices. Tables and forms adjust gracefully to different screen sizes.
-  
+- **Add Role**: Create new roles with a custom name and predefined permissions.
+- **Edit Role**: Modify existing roles seamlessly.
+- **Delete Role**: Remove roles with confirmation prompts.
+- **Dark Mode Support**: The interface adapts to system themes or user preferences.
+- **Responsive Design**: Optimized for all screen sizes, from mobile to desktop.
+- **LocalStorage Persistence**: Roles are saved locally and persist across sessions.
 
-## Technologies Used
+---
 
-- **React** for building the UI
-- **Tailwind CSS** for styling and responsiveness
-- **localStorage** for persisting user data
+## 🛠️ **Technologies Used**
 
+- **React**: For building the user interface.
+- **Tailwind CSS**: For styling and ensuring responsive design.
+- **React Toastify**: For notifications.
+- **LocalStorage**: For data persistence.
 
-## How to Use
+---
 
-1. **Clone the repository:**
+## 🚀 **Getting Started**
 
+Follow these steps to set up and run the project on your local machine.
+
+### **Prerequisites**
+
+- **Node.js**: Install the latest version from [Node.js Official Website](https://nodejs.org).
+- **Git**: Ensure Git is installed for version control.
+
+---
+
+### **Installation**
+
+1. Clone the repository:
    ```bash
-   git clone https://github.com/harver2001/RBAC-VRV-Security
+   git clone https://github.com/yourusername/role-management-dashboard.git
+   cd role-management-dashboard
+2. Install dependencies:
+   ```bash
+   npm install
 
-2. **Install dependencies:**
+### **Running the Application**
 
-   - (Assuming you have Node.js and npm installed)
-   - Run the below command to install all the required dependencies.
-   
-    npm install
-
-2. **Start the application:**
-
-   - Run the below command to start the project locally.
-   
-    npm start
-
-
-## Interacting with the Application
-
-- Initally create a role that can eventually be assigned to any User.
-- Adding Users: Click on the designated "Add User" button to add a new user.
-- Editing Users: Locate the "Edit" button next to a user's record in the table and click it to modify details, including their role.
-- Deleting Users: Click the corresponding "Delete" button to permanently remove a user.
-- Role Management: When adding or editing a user, you can assign a specific role. This helps to control the access and permissions for each user.
-- LocalStorage Utilization: The application leverages the browser's localStorage for user data persistence. This entails:
-    - Saving user and role data modifications (addition, editing, deletion) locally to your browser.
-    - Maintaining user and role data even upon page refreshes, as it's retrieved from localStorage upon subsequent loads.
+   Start the development server:
+   ```bash
+   npm start
