@@ -4,7 +4,7 @@ A fully responsive **Role Management Dashboard** built with **React** and **Tail
 
 ---
 
-## 📋 **Features**
+## 📋 **Features** 
 
 - **Add Role**: Create new roles with a custom name and predefined permissions.
 - **Edit Role**: Modify existing roles seamlessly.
