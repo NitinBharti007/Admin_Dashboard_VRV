@@ -53,7 +53,6 @@ Follow these steps to set up and run the project on your local machine.
 Open your browser and navigate to http://localhost:3000.
 
 ### **Project Structure**
-     ```graphql
       📂 src/
       ├── 📂 components/
       │   ├── 📄 RoleTable.jsx       # Main component for role management
@@ -64,7 +63,9 @@ Open your browser and navigate to http://localhost:3000.
       ├── 📄 App.jsx                 # Application entry point
       ├── 📄 index.js                # Main React DOM rendering
       └── 📄 localStorageUtils.js    # Utility functions for localStorage handling
+      
 ### **🖥️ Usage**
+
 1. Add Role:
    Click the "Add Role" button.
    Fill in the role name and select permissions.
@@ -77,10 +78,12 @@ Open your browser and navigate to http://localhost:3000.
    Confirm the action in the pop-up modal.
 
 ### **🌟 Features in Dark Mode**
+
 1. Enable dark mode on your system or browser to experience the dark-themed UI automatically.
 2. Elements, text, and buttons adapt dynamically for optimal visibility.
 
 ### **📧 Contact**
-Author: Nitin Bharti
-Email: dev.nitin63@gmail.com
-Portfolio: [Nitin Bharti Portfolio](https://nitinbh.netlify.app)
+
+- **Author**: Nitin Bharti
+- **Email**: dev.nitin63@gmail.com
+- **Portfolio**: [Me](https://nitinbh.netlify.app)
