@@ -81,3 +81,6 @@ Open your browser and navigate to http://localhost:3000.
 - **Author**: Nitin Bharti
 - **Email**: dev.nitin63@gmail.com
 - **Portfolio**: [Me](https://nitinbh.netlify.app)
+
+### **📄 License**
+This project is licensed under the MIT License. See the LICENSE file for more details.
