@@ -64,18 +64,12 @@ Open your browser and navigate to http://localhost:3000.
       ├── 📄 index.js                # Main React DOM rendering
       └── 📄 localStorageUtils.js    # Utility functions for localStorage handling
       
-### **🖥️ Usage**
+## 🖥️ **Usage**
 
-1. Add Role:
-   Click the "Add Role" button.
-   Fill in the role name and select permissions.
-   Save the role to see it reflected in the table.
-2. Edit Role:
-   Click the "Edit" button for a specific role.
-   Modify the name or permissions, and save the changes.
-3. Delete Role:
-   Click the "Delete" button for a role.
-   Confirm the action in the pop-up modal.
+- **Add Role**: Click the "Add Role" button. Fill in the role name and select permissions. Save the role to see it reflected in the table.
+- **Edit Role**: Click the "Edit" button for a specific role. Modify the name or permissions, and save the changes.
+- **Delete Role**: Click the "Delete" button for a role. Confirm the action in the pop-up modal.
+
 
 ### **🌟 Features in Dark Mode**
 
