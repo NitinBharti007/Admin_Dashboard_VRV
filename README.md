@@ -40,7 +40,7 @@ Follow these steps to set up and run the project on your local machine.
 1. Clone the repository:
    ```bash
    git clone https://github.com/NitinBharti007/Admin_Dashboard_VRV.git
-   cd Admin_Dashboard_VRV
+   cd RBAC-VRV-Security
 2. Install dependencies:
    ```bash
    npm install
@@ -55,8 +55,8 @@ Open your browser and navigate to http://localhost:3000.
 ### **Project Structure**
       📂 src/
       ├── 📂 components/
-      │   ├── 📄 RoleTable.jsx       # Main component for role management
-      │   ├── 📄 RoleForm.jsx        # Form for adding/editing roles
+      │   ├── 📄 RoleManagement        # Main component for role management
+      │   ├── 📄 UserManagement        # Main component for user management
       │   └── 📄 ConfirmationModal.jsx # Modal for delete confirmation
       ├── 📂 styles/
       │   └── 📄 index.css           # Custom Tailwind CSS styles
