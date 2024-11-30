@@ -39,7 +39,7 @@ Follow these steps to set up and run the project on your local machine.
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/role-management-dashboard.git
+   git clone https://github.com/NitinBharti007/Admin_Dashboard_VRV.git
    cd role-management-dashboard
 2. Install dependencies:
    ```bash
@@ -47,10 +47,40 @@ Follow these steps to set up and run the project on your local machine.
 
 ### **Running the Application**
 
-   Start the development server:
+1. Start the development server:
    ```bash
    npm start
 Open your browser and navigate to http://localhost:3000.
 
 ### **Project Structure**
+     ```graphql
+      📂 src/
+      ├── 📂 components/
+      │   ├── 📄 RoleTable.jsx       # Main component for role management
+      │   ├── 📄 RoleForm.jsx        # Form for adding/editing roles
+      │   └── 📄 ConfirmationModal.jsx # Modal for delete confirmation
+      ├── 📂 styles/
+      │   └── 📄 index.css           # Custom Tailwind CSS styles
+      ├── 📄 App.jsx                 # Application entry point
+      ├── 📄 index.js                # Main React DOM rendering
+      └── 📄 localStorageUtils.js    # Utility functions for localStorage handling
+### **🖥️ Usage**
+1. Add Role:
+   Click the "Add Role" button.
+   Fill in the role name and select permissions.
+   Save the role to see it reflected in the table.
+2. Edit Role:
+   Click the "Edit" button for a specific role.
+   Modify the name or permissions, and save the changes.
+3. Delete Role:
+   Click the "Delete" button for a role.
+   Confirm the action in the pop-up modal.
 
+### **🌟 Features in Dark Mode**
+1. Enable dark mode on your system or browser to experience the dark-themed UI automatically.
+2. Elements, text, and buttons adapt dynamically for optimal visibility.
+
+### **📧 Contact**
+Author: Nitin Bharti
+Email: dev.nitin63@gmail.com
+Portfolio: [Nitin Bharti Portfolio](https://nitinbh.netlify.app)
