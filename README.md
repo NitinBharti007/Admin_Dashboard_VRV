@@ -40,7 +40,7 @@ Follow these steps to set up and run the project on your local machine.
 1. Clone the repository:
    ```bash
    git clone https://github.com/NitinBharti007/Admin_Dashboard_VRV.git
-   cd role-management-dashboard
+   cd Admin_Dashboard_VRV
 2. Install dependencies:
    ```bash
    npm install
